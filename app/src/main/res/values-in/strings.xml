@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_details">Keterangan Barang</string>
+    <string name="item_code">Kode barang</string>
+    <string name="item">Barang</string>
+    <string name="buyer">Pembeli</string>
+    <string name="price">Harga</string>
+    <string name="auction_price">Harga lelang</string>
+    <string name="payment_method">Metode pembayaran</string>
+    <string name="paid_off">Lunas</string>
+    <string name="waiting_for_payment">Menunggu pembayaran</string>
+    <string name="save">Simpan</string>
+    <string name="cash">Tunai</string>
+    <string name="data_not_found">Data Tidak Ditemukan</string>
+</resources>

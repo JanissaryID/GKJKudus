@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GKJ Kudus</string>
+    <string name="item_details">Item Details</string>
+    <string name="item_code">Item Code</string>
+    <string name="item">Item</string>
+    <string name="buyer">Buyer</string>
+    <string name="price">Price</string>
+    <string name="auction_price">Auction Price</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="paid_off">Paid off</string>
+    <string name="waiting_for_payment">Waiting for payment</string>
+    <string name="save">Save</string>
+    <string name="cash">Cash</string>
+    <string name="data_not_found">Data Not Found</string>
+</resources>
