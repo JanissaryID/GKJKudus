@@ -220,7 +220,7 @@ fun ItemsLoadData(state: Int, itemsData: List<ItemRoom>) {
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp), horizontalArrangement = Arrangement.Center) {
                 Surface(shape = RoundedCornerShape(50),
-                    color = if(itemsData[indexItem].statusItem == 2) Color.Green.copy(alpha = 0.6f) else if(itemsData[indexItem].statusItem == 1) Color.LightGray else Color.Transparent)
+                    color = if(itemsData[indexItem].statusItem == 2) MaterialTheme.colorScheme.primaryContainer else if(itemsData[indexItem].statusItem == 1) MaterialTheme.colorScheme.surfaceContainer else Color.Transparent)
                 {
                     Text(modifier = Modifier.padding(vertical = 4.dp, horizontal = 12.dp),
                         text = if(itemsData[indexItem].statusItem == 2) stringResource(R.string.paid_off) else if(itemsData[indexItem].statusItem == 1) stringResource(

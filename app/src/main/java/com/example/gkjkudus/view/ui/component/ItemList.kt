@@ -45,7 +45,7 @@ fun ItemList(item: ItemRoom) {
                     color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
                 )
                 Surface(shape = RoundedCornerShape(50),
-                    color = if(item.statusItem == 2) Color.Green else if(item.statusItem == 1) Color.LightGray else Color.Transparent)
+                    color = if(item.statusItem == 2) MaterialTheme.colorScheme.primaryContainer else if(item.statusItem == 1) MaterialTheme.colorScheme.surfaceContainer else Color.Transparent)
                 {
                     Text(modifier = Modifier.padding(vertical = 2.dp, horizontal = 8.dp),
                         fontSize = MaterialTheme.typography.labelMedium.fontSize,

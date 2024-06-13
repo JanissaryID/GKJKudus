@@ -34,15 +34,22 @@ class MainActivity : ComponentActivity() {
                 val itemViewModel = hiltViewModel<ItemViewModel>()
                 itemViewModel.fetchItems()
 
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    navController = rememberNavController()
+                navController = rememberNavController()
 
-                    Greeting(
-                        itemViewModel = itemViewModel,
-                        modifier = Modifier.padding(innerPadding),
-                        navController = navController
-                    )
-                }
+                NavGraphSetup(
+                    navController = navController,
+                    itemViewModel = itemViewModel
+                )
+
+//                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+//                    n
+//
+//                    Greeting(
+//                        itemViewModel = itemViewModel,
+//                        modifier = Modifier.padding(bottom = innerPadding.calculateBottomPadding(), top = innerPadding.calculateTopPadding()),
+//                        navController = navController
+//                    )
+//                }
             }
         }
     }
